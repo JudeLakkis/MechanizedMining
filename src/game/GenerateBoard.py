@@ -49,6 +49,7 @@ class Board():
                     else:
                         grid[row].append(' ')
         self.grid = grid
+        return self.grid
 
     def display(self):
         # Easy to read output
