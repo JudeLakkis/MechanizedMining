@@ -1,11 +1,7 @@
-from game import GenerateBoard
-import pyglet
+# Game Files
+from game import GenerateBoard, Player
 
-window = pyglet.window.Window()
-window.clear()
-pyglet.app.run()
+game = GenerateBoard.Board(14)
+board = game.generate()
 
-board = GenerateBoard.Board(14)
-state = board.generate()
-# board.display()
-# print(state)
+player = Player.Player([0, 0], [[]])
