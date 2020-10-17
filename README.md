@@ -1,5 +1,8 @@
 <h1 align="center">Mechanized Mining</h1>
 
+Taking a break from this project to work on some other projects.
+Will return, just interested in trying something else atm…
+
 ### Map Details:
 **Sizes:**
 - 14 x 14
